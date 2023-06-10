@@ -1,0 +1,92 @@
+[
+  {
+    "question": "This football team won World Cup 2022?",
+    "options": {
+      "a": "Argentina",
+      "b": "France",
+      "c": "Croatia"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "This football team won in Champions League 2021/2022?",
+    "options": {
+      "a": "Liverpool",
+      "b": "PSG",
+      "c": "Real Madrid"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "This runner broken world record in Berlin 2022 year?",
+    "options": {
+      "a": "Mo Farah",
+      "b": "Eliud Kipchoge",
+      "c": "Kenenise Bekele"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who won 'Indian Wells Masters' in 2023 year?",
+    "options": {
+      "a": "Sabalenka Aryna",
+      "b": "Swiatek Iga",
+      "c": "Rybakina Elena"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "He is a spanish professional tennis player who have a record in Grand Slam men's single titles?",
+    "options": {
+      "a": "Rafael Nadal",
+      "b": "Novak Djokovic",
+      "c": "Carlos Alcaraz"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which footballer has scored the most goals in World Cup history?",
+    "options": {
+      "a": "Pele",
+      "b": "Ronaldo",
+      "c": "Miroslav Klose"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is Usain Bolt's blistering 100m world record time?",
+    "options": {
+      "a": "9.58 seconds",
+      "b": "9.60 seconds",
+      "c": "9.56 seconds"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The Chicago Cubs and Boston Red Sox play which sport?",
+    "options": {
+      "a": "Basketball",
+      "b": "Baseball",
+      "c": "Soccer"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who is the Premier League's all-time top scorer?",
+    "options": {
+      "a": "Alan Shearer",
+      "b": "Harry Kane",
+      "c": "Wayne Rooney"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "In which sport do teams compete to win the Stanley Cup?",
+    "options": {
+      "a": "Baseball",
+      "b": "Soccer",
+      "c": "Hockey"
+    },
+    "answer": "c"
+  }
+]

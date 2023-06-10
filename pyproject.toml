@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quiz-t-bot-with-mongdb"
+version = "0.1.0"
+description = ""
+authors = ["Saken Myrzabekov <myrzabekovsaken89@gmail.com>"]
+readme = "README.md"
+packages = [{include = "quiz_t_bot_with_mongdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+pymongo = {extras = ["srv"], version = "^4.3.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import logging
 import asyncio
 import os
+import random
 
 
 load_dotenv()
@@ -43,6 +44,7 @@ async def start(message: types.Message):
 @dp.message_handler(commands=['quiz'])
 async def start_quiz(message: types.Message):
     quiz = list(questions_collection.find())
+    random.shuffle(quiz)
     score = await run_quiz(quiz, message.chat.id)
     first_name = message.from_user.first_name
     save_results_to_mongodb(first_name, score)
@@ -59,7 +61,7 @@ async def run_quiz(quiz, chat_id):
         button1 =  types.KeyboardButton("A")
         button2 =  types.KeyboardButton("B")
         button3 =  types.KeyboardButton("C")
-        keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True).row(button1).add(button2).add(button3)    
+        keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True).add(button1).add(button2).add(button3)    
         message_text = f"{question}\n\n{options_text}"
         await bot.send_message(chat_id, message_text, reply_markup=keyboard)
         user_answer = await get_user_answer(chat_id)

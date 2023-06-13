@@ -36,13 +36,13 @@
     "answer": "c"
   },
   {
-    "question": "He is a spanish professional tennis player who have a record in Grand Slam men's single titles?",
+    "question": "He is a professional tennis player who have a record in Grand Slam men's single titles?",
     "options": {
       "a": "Rafael Nadal",
       "b": "Novak Djokovic",
-      "c": "Carlos Alcaraz"
+      "c": "Roger Federer"
     },
-    "answer": "a"
+    "answer": "b"
   },
   {
     "question": "Which footballer has scored the most goals in World Cup history?",
